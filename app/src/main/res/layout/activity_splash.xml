@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
     android:background="@drawable/gradientrectangle"
-    >
+    tools:context=".SplashActivity">
+
     <ImageView
-        android:id="@+id/splash_img"
+        android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="120dp"
-        android:layout_gravity="center"
-
-        ></ImageView>
+        android:layout_gravity="center" />
 
 
 </FrameLayout>
