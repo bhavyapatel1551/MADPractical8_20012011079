@@ -4,9 +4,10 @@ import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.ImageView
 
-class MainActivity : AppCompatActivity(), Animation.AnimationListener {
+class MainActivity : AppCompatActivity(),Animation.AnimationListener {
     lateinit var alarmimgs : ImageView
     lateinit var alarmimg_frameByFrameAnimation : AnimationDrawable
     lateinit var alarmimgAnimation : Animation

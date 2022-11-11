@@ -5,6 +5,7 @@ import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.ImageView
 
 class SplashActivity : AppCompatActivity(), Animation.AnimationListener {
